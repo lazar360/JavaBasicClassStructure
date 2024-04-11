@@ -15,6 +15,13 @@ public class ArithmeticsOperators {
         // b = - 3 a = 3
 
         System.out.println("a = " + a + " b = " + b);
+
+        a = 4;
+        b = 3 - 2 * a --;
+        // 3 - 8
+        // - 5
+        // a = 3 b = - 5
+        System.out.println("a = " + a + " b = " + b);
     }
 
 }
