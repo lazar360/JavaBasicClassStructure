@@ -17,11 +17,30 @@ public class ArithmeticsOperators {
         System.out.println("a = " + a + " b = " + b);
 
         a = 4;
-        b = 3 - 2 * a --;
+        b = 3 - 2 * a --; // use a then decrement
         // 3 - 8
         // - 5
         // a = 3 b = - 5
         System.out.println("a = " + a + " b = " + b);
-    }
 
+        long c = 2;
+        long d = 4 + 3 * c++; // use then increment
+        // d = 4 + 6
+        // c = 3
+        System.out.println("c = " + c + " d = " + d);
+
+        result = 10 - 3 * (2+1) - 4 / (1+3);
+        // 10 - 3 * 3 - 4 / 4
+        // 10 - 9 - 1
+        // 0
+        System.out.println("result = " + result);
+
+        int i = 10;
+        int j = 3;
+        int k = i % j; // 1
+        int e = 10 % 2; // 0
+        System.out.println("k = " + k + " e = " + e);
+
+
+    }
 }
