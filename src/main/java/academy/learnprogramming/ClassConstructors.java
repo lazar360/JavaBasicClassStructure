@@ -1,13 +1,13 @@
 package academy.learnprogramming;
 
-class Dog{
+class Dog1{
 
     private String colour;
-    public Dog(String colour){
+    public Dog1(String colour){
         System.out.println("constructor");
         this.colour = colour;
     }
-    // public void academy.learnprogramming.Dog(){} // compile but this is not a constructor because it has a return type
+    // public void academy.learnprogramming.Dog1(){} // compile but this is not a constructor because it has a return type
 
     public void printColor(){
         System.out.println("color= " + this.colour);
@@ -35,7 +35,7 @@ public class ClassConstructors {
 
     public static void main(String[] args) {
 
-        Dog dog = new Dog("gray");
+        Dog1 dog = new Dog1("gray");
         dog.printColor();
 
         Cat cat = new Cat(10, 12);
