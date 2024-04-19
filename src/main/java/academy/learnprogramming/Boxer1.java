@@ -1,2 +1,14 @@
-package academy.learnprogramming;public class Boxer1 {
+package academy.learnprogramming;
+
+public class Boxer1 {
+    Integer i;
+    int x;
+
+    public Boxer1(int y){
+        x=i+y;// can not be null
+        System.out.println(x);
+    }
+    public static void main(String[] args) {
+        new Boxer1(new Integer(4));
+    }
 }
