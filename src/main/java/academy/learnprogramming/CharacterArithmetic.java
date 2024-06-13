@@ -8,11 +8,11 @@ public class CharacterArithmetic {
         char myCharNum = '1';
 
         // exam example
-        char letter = 65; // A
+        char letter = 65; // thread.A
         int myInt = letter + 3;
         char myNewLetter = (char) myInt;
 
-        char myChar = 65; // A
+        char myChar = 65; // thread.A
         char newChar = (char) (myChar + 1); // 66 -> B
         boolean b = newChar == 'B'; // true
         boolean c = (newChar++ == 'C'); // false - on utilise newChar puis on incrémente
@@ -22,8 +22,8 @@ public class CharacterArithmetic {
         System.out.println("c " + c);
 
         // Question examples
-        // A, D
-        // A, B, D
+        // thread.A, D
+        // thread.A, B, D
         // C, D, F
         /*
         3: boolean x = true, z = true;
@@ -34,7 +34,7 @@ public class CharacterArithmetic {
         x = true, y = 20, z = false
         B
         */
-        // A
+        // thread.A
         // C
 
     }
