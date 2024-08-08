@@ -13,7 +13,7 @@ public class WholeNumericPrimitives {
         System.out.println("firstOctal = " + firstOctal + " - secondOctal = " + secondOctal);
         System.out.println("sum firstOctal+secondOctal " + Integer.toOctalString(sumOct));
 
-        // hexadecimal (0-9 and A-F)
+        // hexadecimal (0-9 and thread.A-F)
         int firstHex = 0xF; // 15 decimal
         int secondHex = 0x1E; // 30 decimal
         int sumHex = firstHex + secondHex; //45 decimal - 2d hex
