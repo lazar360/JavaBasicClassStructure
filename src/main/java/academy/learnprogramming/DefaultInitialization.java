@@ -8,20 +8,20 @@ public class DefaultInitialization {
     static int myInt;
     static long myLong;
     static float myFloat;
-    static double myDouble;
-    static char myChar;
+     static double myDouble;
+     static char myChar;
 
     public static void main(String[] args) {
-        int localInt;
-
-        // System.out.println(localInt); // doesn't compile (no initilization)
-        System.out.println(myBoolean);
-        System.out.println(myByte);
-        System.out.println(myShort);
-        System.out.println(myInt);
-        System.out.println(myLong);
-        System.out.println(myFloat);
-        System.out.println(myDouble);
-        System.out.println(myChar);
+        int [] arr1 = new int[8];
+        System.out.println(myBoolean); // false
+        System.out.println(myByte); // 0
+        System.out.println(myShort); // 0
+        System.out.println(myInt);// 0
+        System.out.println(myLong); // 0
+        System.out.println(myFloat); //0.0
+        System.out.println(myDouble); // 0.0
+        System.out.println(myChar); //
+        String [] arr = new String[7];
+        System.out.println(arr[0]);
     }
 }
