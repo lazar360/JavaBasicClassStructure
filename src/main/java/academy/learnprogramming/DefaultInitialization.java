@@ -2,6 +2,7 @@ package academy.learnprogramming;
 
 public class DefaultInitialization {
 
+    private static int [] staticArr;
     static boolean myBoolean;
     static byte myByte;
     static short myShort;
@@ -21,7 +22,12 @@ public class DefaultInitialization {
         System.out.println(myFloat); //0.0
         System.out.println(myDouble); // 0.0
         System.out.println(myChar); //
-        String [] arr = new String[7];
-        System.out.println(arr[0]);
+        String [] localArr = new String[7];
+        System.out.println(localArr[0]); // null
+        System.out.println(localArr); // [Ljava.lang.String;@65ab7765
+        System.out.println(staticArr); // null
+        // System.out.println(staticArr[0]); NullPointerEception
+
+
     }
 }
