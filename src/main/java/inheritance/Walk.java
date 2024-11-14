@@ -1,2 +1,7 @@
-package inheritance;public interface Walk {
+package inheritance;
+
+public interface Walk {
+    default int getSpeed(){
+        return 5;
+    }
 }
