@@ -1,5 +1,7 @@
 package inheritance;
 
-public interface Carnivor {
-    void eatMeat();
+public interface Carnivore {
+    default void eatMeat(){
+        System.out.println("eat meat");
+    }
 }
